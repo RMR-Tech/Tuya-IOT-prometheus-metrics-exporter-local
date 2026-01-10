@@ -3,10 +3,10 @@ import os
 from contextlib import asynccontextmanager
 
 import uvicorn
-from config.device_config import SOCKET_PLUG_DEVICES
 from fastapi import FastAPI, Request
 from fastapi.responses import PlainTextResponse
 
+from config.device_config import SOCKET_PLUG_DEVICES
 from metrics.collection import metrics_handler
 from mylogging import logger
 from worker.switch_socket_device_exporter import SwitchSocketDeviceExporter

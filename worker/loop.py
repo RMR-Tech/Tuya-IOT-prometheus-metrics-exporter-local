@@ -1,4 +1,4 @@
-from device_config import SOCKET_PLUG_DEVICES
+from config.device_config import SOCKET_PLUG_DEVICES
 from worker.switch_socket_device_exporter import SwitchSocketDeviceExporter
 
 
