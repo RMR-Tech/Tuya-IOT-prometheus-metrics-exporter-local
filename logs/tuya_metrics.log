@@ -1,0 +1,21 @@
+2026-01-10 13:57:10.107 | INFO     | __main__:main:50 - Starting Tuya Metrics Exporter
+2026-01-10 13:57:10.119 | INFO     | worker.switch_socket_device_exporter:arun:26 - Starting Switch Socket Device Exporter
+2026-01-10 13:57:10.119 | INFO     | worker.switch_socket_device_exporter:_ainit_devices:49 - Initializing device: node-3 PC
+2026-01-10 13:57:10.120 | INFO     | devices.switch_socket:init:33 - Initializing device: eb7b86541188b1d48bmdzv Auto node-3 PC
+2026-01-10 13:57:11.530 | INFO     | devices.switch_socket:init:37 - Device initialized: eb7b86541188b1d48bmdzv Auto node-3 PC
+2026-01-10 13:57:11.530 | INFO     | worker.switch_socket_device_exporter:_ainit_devices:57 - Device initialized: node-3 PC
+2026-01-10 13:57:11.530 | INFO     | worker.switch_socket_device_exporter:arun:30 - Switch Socket Device Exporter initialized
+2026-01-10 13:57:11.530 | INFO     | worker.switch_socket_device_exporter:_arun:35 - Running Switch Socket Device Exporter
+2026-01-10 13:57:11.930 | DEBUG    | devices.switch_socket:_parse_status_dps_to_monitoring_data:77 - Parsing status DPS to monitoring data: {'1': True, '9': 0, '17': 61, '18': 596, '19': 1211, '20': 2139, '21': 1, '22': 568, '23': 28277, '24': 15484, '25': 2690, '26': 0, '38': 'off', '39': False, '40': 'relay', '41': False, '42': '', '43': '', '44': ''}
+2026-01-10 13:57:22.063 | DEBUG    | devices.switch_socket:_parse_status_dps_to_monitoring_data:77 - Parsing status DPS to monitoring data: {'1': True, '9': 0, '17': 61, '18': 596, '19': 1211, '20': 2139, '21': 1, '22': 568, '23': 28277, '24': 15484, '25': 2690, '26': 0, '38': 'off', '39': False, '40': 'relay', '41': False, '42': '', '43': '', '44': ''}
+2026-01-10 13:57:32.099 | DEBUG    | devices.switch_socket:_parse_status_dps_to_monitoring_data:77 - Parsing status DPS to monitoring data: {'1': True, '9': 0, '17': 61, '18': 596, '19': 1211, '20': 2139, '21': 1, '22': 568, '23': 28277, '24': 15484, '25': 2690, '26': 0, '38': 'off', '39': False, '40': 'relay', '41': False, '42': '', '43': '', '44': ''}
+2026-01-10 13:57:42.134 | DEBUG    | devices.switch_socket:_parse_status_dps_to_monitoring_data:77 - Parsing status DPS to monitoring data: {'1': True, '9': 0, '17': 61, '18': 596, '19': 1211, '20': 2139, '21': 1, '22': 568, '23': 28277, '24': 15484, '25': 2690, '26': 0, '38': 'off', '39': False, '40': 'relay', '41': False, '42': '', '43': '', '44': ''}
+2026-01-10 13:57:52.168 | DEBUG    | devices.switch_socket:_parse_status_dps_to_monitoring_data:77 - Parsing status DPS to monitoring data: {'1': True, '9': 0, '17': 61, '18': 596, '19': 1211, '20': 2139, '21': 1, '22': 568, '23': 28277, '24': 15484, '25': 2690, '26': 0, '38': 'off', '39': False, '40': 'relay', '41': False, '42': '', '43': '', '44': ''}
+2026-01-10 13:58:03.334 | INFO     | __main__:main:50 - Starting Tuya Metrics Exporter
+2026-01-10 13:58:03.346 | INFO     | worker.switch_socket_device_exporter:arun:26 - Starting Switch Socket Device Exporter
+2026-01-10 13:58:03.347 | INFO     | worker.switch_socket_device_exporter:_ainit_devices:49 - Initializing device: node-3 PC
+2026-01-10 13:58:03.347 | INFO     | devices.switch_socket:init:33 - Initializing device: eb7b86541188b1d48bmdzv Auto node-3 PC
+2026-01-10 13:58:06.558 | INFO     | devices.switch_socket:init:37 - Device initialized: eb7b86541188b1d48bmdzv Auto node-3 PC
+2026-01-10 13:58:06.559 | INFO     | worker.switch_socket_device_exporter:_ainit_devices:57 - Device initialized: node-3 PC
+2026-01-10 13:58:06.560 | INFO     | worker.switch_socket_device_exporter:arun:30 - Switch Socket Device Exporter initialized
+2026-01-10 13:58:06.560 | INFO     | worker.switch_socket_device_exporter:_arun:35 - Running Switch Socket Device Exporter

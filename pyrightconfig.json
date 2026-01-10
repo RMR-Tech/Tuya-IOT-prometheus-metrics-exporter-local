@@ -1,0 +1,23 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "**/__pycache__",
+    ".venv",
+    "example"
+  ],
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Linux",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportUnusedVariable": true,
+  "reportUnusedImport": true,
+  "reportMissingParameterType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownArgumentType": false
+}
+
