@@ -4,6 +4,11 @@ FROM python:3.12-slim
 # Set working directory
 WORKDIR /app
 
+# Install curl for healthcheck (minimal overhead)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends curl && \
+    rm -rf /var/lib/apt/lists/*
+
 # Install uv
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
 
@@ -15,6 +20,12 @@ RUN uv sync --frozen --no-cache
 
 # Copy application code
 COPY main.py ./
+COPY config/ ./config/
+COPY devices/ ./devices/
+COPY metrics/ ./metrics/
+COPY models/ ./models/
+COPY mylogging/ ./mylogging/
+COPY worker/ ./worker/
 
 # Create non-root user for security
 RUN useradd -m -u 1000 appuser && \
