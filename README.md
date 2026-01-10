@@ -1,4 +1,4 @@
-# Tuya Metrics Exporter
+# Tuya Metrics Exporter (WIP)
 
 **A production-ready Prometheus metrics exporter for Tuya smart home devices, built with FastAPI and TinyTuya.**
 
