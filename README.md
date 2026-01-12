@@ -16,6 +16,14 @@ Tuya Metrics Exporter is a lightweight, high-performance service that bridges Tu
 - 🐳 **Docker Ready**: Includes Dockerfile for easy containerized deployment
 - 📈 **Comprehensive Metrics**: Tracks power consumption, current, voltage, switch states, and device health
 
+## TODO
+
+- [ ] Auto scan devices on the local network
+- [ ] Auto local key retrieval with tuya cloud api (one time only)
+- [ ] Watcher for new devices added to the local network (auto discovery)
+- [ ] Add More devices type (prioritize those for homelab server usage)
+- .... others if needed (please raise in the issue for feature request)
+ 
 ## Supported Devices
 
 Currently supports:
