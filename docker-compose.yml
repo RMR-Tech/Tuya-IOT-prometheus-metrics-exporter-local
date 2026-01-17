@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  tuya-exporter:
+    build: .
+    container_name: tuya-metrics-exporter
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount host /data/tuya_exporter to container /app/config
+      - /data/tuya_exporter:/app/config
+    restart: unless-stopped
+    environment:
+      # Add any environment variables here if needed
+      - TZ=UTC
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - tuya-network
+
+networks:
+  tuya-network:
+    driver: bridge
+

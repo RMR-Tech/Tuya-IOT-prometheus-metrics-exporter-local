@@ -10,6 +10,10 @@ build/
 .venv/
 venv/
 
+# Environment files
+.env
+.env.*
+
 # Git
 .git/
 .gitignore
@@ -23,16 +27,26 @@ venv/
 *~
 
 # Documentation
-README.md
 *.md
 
 # Docker
 Dockerfile
 .dockerignore
+docker-compose.yml
+
+# Example and test files
+example/
 
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Logs
+logs/
 *.log
+
+# Snapshots and temp files
+snapshot.json
+check.sh
 
